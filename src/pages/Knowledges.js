@@ -5,7 +5,7 @@ const Knowledges = () => {
     return (
         <div>
             <Navigation/>
-            Ici c'est Knowledges
+            
         </div>
     );
 };
