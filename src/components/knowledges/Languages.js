@@ -4,14 +4,14 @@ import ProgressBar from './ProgressBar';
 class Languages extends Component {
     state = {
         languages: [
-            {id: 1, value: 'Python', ex: 3},
-            {id: 2, value: 'Javascript', ex: 1.5},
+            {id: 1, value: 'Python', xp: 3},
+            {id: 2, value: 'Javascript', xp: 1.5},
 
         ],
         framworks: [
-            {id: 1, value: 'Django', ex: 3},
-            {id: 2, value: 'Fast Api', ex: 1.5},
-            {id: 3, value: 'React', ex: 1},
+            {id: 1, value: 'Django', xp: 3},
+            {id: 2, value: 'Fast Api', xp: 1.5},
+            {id: 3, value: 'React', xp: 1},
 
         ]
     }
@@ -21,13 +21,13 @@ class Languages extends Component {
             <div className="languagesFrameworks">
                 <ProgressBar
                     languages={languages}
-                    className="languagesDisplay"
+                    className="languageDisplay"
                     title="languages"
                 />
                 <ProgressBar
                     languages={framworks}
                     title="framworks"
-                    className="framworksDisplay"
+                    className="frameworkDisplay"
                 />
 
             </div>
