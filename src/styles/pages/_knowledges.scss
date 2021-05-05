@@ -51,26 +51,8 @@
         color: $white;
 
         span {
-          width: 36%;
+          width: 70%;
 
-          &:nth-child(2){
-            text-align: center; 
-            width: 20%;
-          }
-          &:nth-child(3){
-            text-align: right;
-            width: 44%;
-          }
-        
-          &:nth-child(2):before,
-          &:nth-child(3):before {
-            content:'';
-            background: rgba(180, 179, 179, 0.507);
-            position: absolute;
-            height: 146px;
-            width: 1px;
-            transform: translate(9px, 19px);
-          }
         }
       }
       .languagesList {
