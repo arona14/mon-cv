@@ -6,11 +6,13 @@ class Languages extends Component {
         languages: [
             {id: 1, value: 'Python', xp: 3.5},
             {id: 2, value: 'Javascript', xp: 1.5},
+            {id: 2, value: 'TypeScript', xp: 1.5},
 
         ],
         framworks: [
             {id: 1, value: 'Django', xp: 3.5},
             {id: 2, value: 'Fast Api', xp: 1.5},
+            {id: 2, value: 'Node JS', xp: 1.5},
             {id: 3, value: 'React', xp: 1},
 
         ]
