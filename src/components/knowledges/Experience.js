@@ -7,11 +7,11 @@ const Experience = () => {
             <dev className="exp-1">
                 <h4>Developpeur Full-Stack -CTS(Cosmo Technogy Services)</h4>
                 <h5>Depuis Janvier 2018</h5>
-                <p>Gérer les projets backoffice (TDU, CRM) <br />
+                <p>Gérer les projets backoffice (TDU, CRM) de CTS <br />
                    Gérer CRM and Accounting : des micro services en python <br />
-                   Membre du team de Rocketrip qui un grand projet qui permet aux
-                   voyageurs de Mondee de gagner des bonus a chaque 
-                   qu'ils font des economies.<br />
+                   Membre du team de Rocketrip Dev qui gere le grand projet 
+                   Rocketrip de Mondee. Ce projet permet au componies de 
+                   faire des economies sur le voyage de leurs employeees.<br />
                    Ce projet utilite deux technologies: Django backend et 
                    React JS en front. <br />
                    Autres projets: Flitgh Reservation, Car Reservation, Cruise Reservation
