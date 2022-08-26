@@ -51,7 +51,7 @@ const Navigation = () => {
                 </ul>
             </dev>
             <dev className="signature">
-                <p>2021 arona</p>
+                © Copyright <span>2022 arona</span>
             </dev>
         </div>
     );
