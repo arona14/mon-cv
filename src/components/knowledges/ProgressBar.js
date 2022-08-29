@@ -7,13 +7,13 @@ const ProgressBar = (props) => {
             <h3>{props.title}</h3>
             <dev className="years">
                 <span>Annees D'experience</span>
-                <span>5 ans</span>
+                <span>10 ans</span>
 
             </dev>
             <dev>
                 {
                     props.languages.map((item) => {
-                    let xpYear = 5;
+                    let xpYear = 10;
                     let progres = item.xp / xpYear * 100;
                     return (
                         <div key={item.id} className="languagesList">

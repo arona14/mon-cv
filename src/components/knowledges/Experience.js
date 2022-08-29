@@ -5,22 +5,29 @@ const Experience = () => {
         <div className="experience">
             <h3>Experience</h3>
             <dev className="exp-1">
-                <h4>Developpeur Full-Stack -CTS(Cosmo Technogy Services)</h4>
-                <h5>Depuis Janvier 2018</h5>
-                <p>Gérer les projets backoffice (TDU, CRM) de CTS <br />
-                   Gérer CRM and Accounting : des micro services en python <br />
-                   Membre du team de Rocketrip Dev qui gere le grand projet 
-                   Rocketrip de Mondee. Ce projet permet au componies de 
-                   faire des economies sur le voyage de leurs employeees.<br />
-                   Ce projet utilite deux technologies: Django backend et 
-                   React JS en front. <br />
-                   Autres projets: Flitgh Reservation, Car Reservation, Cruise Reservation
-                   (Pour tous ces projets on utilise les apis de Sabre) <br />
-                   Technologies: Python, Javascript, NodeJs,Typescript, React JS, FastApi,
-                    Django, Postgres, MongoDb, JWT, Uvicorn, Heroku, Github Actions,
-                    API de Sabre, Swagger.</p>
+                <h4>Développeur Full Stack ― Mondee, Inc Distance</h4>
+                <h5>Depuis mars 2020</h5>
+                <p>Membre de l'équipe Rocketrip : <br />
+                   L'objectif principal de ce projet est
+                   d'aider les organisations à réduire leurs dépenses de voyages d'affaires. <br />
+                   Rocketrip offre aux employés des prix à battre lorsque les employés réservent
+                   des prix inférieurs à ces P2B, ils obtiennent des points.
+                   Ces points leur permettent d'obtenir des récompenses (cartes cadeaux...)..<br />
+                   Ce projet est construit en Django côté backend, Reactjs côté frontend. <br />
+                   </p>
             </dev>
             <dev className="exp-2">
+                <h4>Développeur Backend ― Cosmopolitan Travel Services Distance</h4>
+                <h5>De janvier 2018 à mars 2020</h5>
+                <p>Gérer TDU, projet comptable construit en python en utilisant les 
+                   technologies suivantes : Django, pandas, numpy. <br />
+                   Gérer CRM, un projet de gestionnaire de clientèle construit
+                   en python en utilisant les technologies suivantes : FastApi, Postgres.<br />
+                   Pygds : Il s'agit d'un package python qui nous aide à faire des
+                   recherches de vols et d'hôtels, à effectuer une réservation sur Sabre GDS. <br />
+                   </p>
+            </dev>
+            <dev className="exp-3">
                 <h4>Stage -HTSOFT</h4>
                 <h5>De Juillet 2017 au Decembre 2017</h5>
                 <p>Gerer des applications Backend en utilisant python, Django, Postgres
